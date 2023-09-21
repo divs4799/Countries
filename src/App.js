@@ -8,8 +8,6 @@ import {
 } from "react-router-dom";
 
 
-
-
 function App() {
 
   const [mode,setMode] = React.useState("Dark");
