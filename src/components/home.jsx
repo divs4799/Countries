@@ -36,16 +36,16 @@ function Home(props) {
     
     let filteredData = data;
     function filterData(str,type){
-        if(type =='search'){
+        if(type ==='search'){
             filteredData = flagdata.filter((item)=>{
                 return item.name.toLowerCase().includes(str.toLowerCase(),0);
             })   
-        }else if(type=='filter'){
+        }else if(type==='filter'){
             filteredData = flagdata.filter((item)=>{
                 return item.region.toLowerCase().includes(str.toLowerCase(),0);
             })
         }else{
-            filterData = flagdata;
+            filteredData = flagdata;
         }
         setData(filteredData)
     }

@@ -35,7 +35,7 @@ const navigate = useNavigate();
 
     
     <div className="back" style={props.style} >
-        <button className="back-btn" onClick={()=>navigate("/")} >Back</button>
+        <button className="back-btn" onClick={()=>navigate("/Countries")} >Back</button>
     </div>
 
     <div className="detail-container"style={props.style}>

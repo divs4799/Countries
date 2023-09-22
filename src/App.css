@@ -20,6 +20,9 @@ nav h1{
   border: none;
   background: transparent;
 }
+#home{
+  min-height: 100vh;
+}
 .searchDiv{
 
   padding: 1rem 4rem;

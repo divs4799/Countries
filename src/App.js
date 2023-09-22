@@ -40,13 +40,13 @@ function App() {
   const router = createBrowserRouter([
 
     {
-      path: "/",
+      path: "/Countries",
       element: <Main
       mode={mode}
         style={style}
         toggleStyle={toggleStyle} />,
     },{
-      path:"/:id",
+      path:"/Countries/:id",
       element: <Details
         mode={mode}
         style={style}

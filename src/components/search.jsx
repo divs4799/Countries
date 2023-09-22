@@ -7,7 +7,7 @@ function Search(props){
         console.log(event.target.name)
         props.filter(value,name);
     }
-    let data =  require('../data.json');
+    
     return <div className="searchDiv">
         <div className="leftDiv" >
         <div className="searchIcon" ><BsSearch/></div>
